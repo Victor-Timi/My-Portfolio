@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Victor</title>
+    <!-- !BOX ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <script defer src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+       <!-- !MY STYLESHEET -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- !HEADER -->
+    <header class="header" id="home">
+      <nav class="navbar container">
+        <a href="./index.html" class="logo">Victor.</a>
+        <div class="navbar-buttons">
+          <button type="button" class="button icon-button menu-toggle-button">
+            <i class="bx bx-menu open-icon"></i>
+            <i class="bx bx-x close-icon"></i>
+          </button>
+          <button type="button" class="button icon-button theme-toggle-button">
+            <i class="bx bx-toggle-left theme-off"></i>
+            <i class="bx bx-toggle-right theme-on"></i>
+          </button>
+        </div>
+        <div class="menu">
+          <ul class="list">
+            <li class="list-item">
+              <a href="#about-me" class="list-link">
+                <span>01</span> About Me
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#portfolio" class="list-link">
+                <span>02</span> Portfolio
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#contact" class="list-link"> <span>03</span> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- !HERO SECTION -->
+    <section class="hero section">
+      <div class="container">
+        <h1 class="title main-title">
+          Creative <br />
+          Front <span class="inline-image has-sparkles"></span>End
+          <br />
+          Developer &<br />
+          UI/UX Designe<span class="has-sparkles-alt">r</span>
+        </h1>
+      </div>
+    </section>
+    <!-- !ABOUT SECTION -->
+    <section class="about-me section hidden" id="about-me">
+      <div class="container">
+        <div class="section-title-container">
+          <h2 class="title section-title">About</h2>
+          <div class="section-subtitle-container">
+            <span class="subtitle-number has-sparkles">01</span>
+          </div>
+        </div>
+        <div class="section-description d-grid">
+          <div>
+            <p class="description">
+              Hi, I'm <span class="text-bold">Victor Timi,</span> a
+              <span class="text-bold">Front-end developer</span> who cares
+              deeply about
+              <span class="text-bold">"progressive Enhancement", Web Content Accessibility,</span>
+              <span class="text-bold">User Experience and User Interfaces</span>
+              that <span class="text-bold"> Converts.</span> <br />
+              I look for creative ways to push the boundaries of website
+              front-end code without compromising on
+              <span class="text-bold"> browser support and performance.</span>
+            </p>
+          </div>
+          <div class="canvasContainer">
+            <canvas id="myCanvas" class="description-image">
+              <ul id="tags">
+                <li>
+                  <a href="#">HTML</a>
+                </li>
+                <li>
+                  <a href="#">CSS</a>
+                </li>
+                <li>
+                  <a href="#">JS</a>
+                </li>
+                <li>
+                  <a href="#">Bootstrap</a>
+                </li>
+                <li>
+                  <a href="#">Tailwind</a>
+                </li>
+                <li>
+                  <a href="#">Adobe XD</a>
+                </li>
+                <li>
+                  <a href="#">Sketch</a>
+                </li>
+                <li>
+                  <a href="#">Wireframe</a>
+                </li>
+                <li>
+                  <a href="#">Figma</a>
+                </li>
+                <li>
+                  <a href="#">Illustrator</a>
+                </li>
+                <li>
+                  <a href="#">React</a>
+                </li>
+                <li>
+                  <a href="#">SQL</a>
+                </li>
+                <li>
+                  <a href="#">PHP</a>
+                </li>
+                <li>
+                  <a href="#">SASS</a>
+                </li>
+                <li>
+                  <a href="#">Wordpress</a>
+                </li>
+                <li>
+                  <a href="#">BEM</a>
+                </li>
+                <li>
+                  <a href="#">Webflow</a>
+                </li>
+              </ul>
+            </canvas>
+          </div>
+
+          <div class="tech-stark d-grid">
+            <div class="tech-stark-item" data-tooltip="HTML5">
+              <i class="bx bxl-html5"></i>
+            </div>
+            <div class="tech-stark-item" data-tooltip="CSS3">
+              <i class="bx bxl-css3"></i>
+            </div>
+            <div class="tech-stark-item" data-tooltip="Javascript">
+              <i class="bx bxl-javascript"></i>
+            </div>
+            <div class="tech-stark-item" data-tooltip="React">
+              <i class="bx bxl-react"></i>
+            </div>
+            <div class="tech-stark-item" data-tooltip="Figma">
+              <i class="bx bxl-figma"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- !PORTFOLIO SECTION -->
+    <section class="portfolio section hidden" id="portfolio">
+      <div class="container">
+        <div class="section-title-container">
+          <h2 class="title section-title">Recent</h2>
+          <div class="section-subtitle-container">
+            <span class="subtitle-number has-sparkles">02</span>
+            <h5 class="title section-subtitle">Projects</h5>
+          </div>
+        </div>
+        <div class="portfolio-cards">
+<!-- First Card Here -->
+          <div class="card-container">
+            <div class="card-image">
+              <a href="https://www.behance.net/gallery/153428707/Fly-Email-Template-Design" target="_blank" class="portfolio-card portfolio-card-2">
+                <img src="./assets/images/Fly Presentation T.png" alt="" />
+              </a>
+            </div>
+          <div class="card-content">
+            <h5 class="card-title">FLY</h5>
+            <div class="card-subheading">
+              <span class="card-subtitle">Email Template Design and Development</span>
+              
+              <div class="card-link-container">
+
+                <div class="card-subheading-link">
+                  <a href="https://github.com/Victor-Timi/Fly" target="_blank" >
+                    <div><i class="bx bxl-github"></i></div>
+                    <div class="link">repo</div>
+                  </a>
+                </div>
+                <div class="card-subheading-link">
+                  <a href="https://www.behance.net/gallery/153428707/Fly-Email-Template-Design" target="_blank" >
+                    <div><i class="bx bx-link"></i></div>
+                    <div class="link">link</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <p class="card-description">
+              FLY is a business specializing in Fashion wear such as Sneakers, Shoes, Joggers, Eye Glasses, etc. This Email Template consists of Promotional content and Newsletters. The development process ensures that it supports various Email Clients, including Outlook. </p>
+          </div>
+        </div>
+<!-- Second Card Here -->
+          <div class="card-container">
+            <div class="card-image">
+              <a href="https://www.behance.net/gallery/153429251/Tangent-Interior-Email-Template-Design" target="_blank" class="portfolio-card portfolio-card-5">
+                <img src="./assets/images//TiT Presentation.png" alt="" />
+              </a>
+            </div>
+            <div class="card-content">
+              <h5 class="card-title">Tangent Interior</h5>
+              <div class="card-subheading">
+                <span class="card-subtitle">Email Template Design & Development</span>
+                <div class="card-link-container">
+                  <div class="card-subheading-link">
+                    <a href="https://github.com/Victor-Timi/tangentinterior" target="_blank" >
+                      <div><i class="bx bxl-github"></i></div>
+                      <div class="link">repo</div>
+                    </a>
+                  </div>
+                  <div class="card-subheading-link">
+                    <a href="https://www.behance.net/gallery/153429251/Tangent-Interior-Email-Template-Design" target="_blank" >
+                      <div><i class="bx bx-link"></i></div>
+                      <div class="link">link</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <p class="card-description">
+                Tangent Interior is an Interior Design solely specialized in designs in housing, office, and other Interior areas. This Email Template consists of Promotional content and Newsletters. The development process ensures that it supports various Email Clients, including Outlook. 
+              </p>
+            </div>
+          </div> 
+<!-- Third Card Here -->
+          <div class="card-container">
+            <div class="card-image">
+              <a href="https://rolexsite.netlify.app/" target="_blank" class="portfolio-card portfolio-card-1">
+                <img src="./assets/images/Rolex.png" alt="" />
+              </a>
+            </div>
+            <div class="card-content">
+              <h5 class="card-title">Rolex</h5>
+
+              <div class="card-subheading">
+                <div class="card-subtitle">Web Design & Development</div>
+                <div class="card-link-container">
+                  <div class="card-subheading-link">
+                    <a href="https://github.com/Victor-Timi/Rolex" target="_blank" >
+                      <div><i class="bx bxl-github"></i></div>
+                      <div class="link">repo</div>
+                    </a>
+                  </div>
+                  <div class="card-subheading-link">
+                    <a href="https://rolexsite.netlify.app/" target="_blank" >
+                      <div><i class="bx bx-link"></i></div>
+                      <div class="link">link</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <p class="card-description">
+                This Rolex landing page design was inspired from the Rolex wristwatch brand. There were little adjustments made in comparison to the development on the official Rolex website. Finally, it came out suberb. Assets were gotten from the Rolex commercials and other featured posts.</p>
+            </div> 
+          </div>
+        <!-- Forth Card Here -->
+          <div class="card-container">
+            <div class="card-image">
+              <a href="https://ordio.netlify.app/" target="_blank" class="portfolio-card portfolio-card-3"> 
+                <img src="./assets/images/Ordio Presentation.png" alt="" />
+              </a>
+            </div>
+            <div class="card-content">
+              <h5 class="card-title">Ordio</h5>
+              <div class="card-subheading">
+                <span class="card-subtitle">Web Design & Development</span>
+                
+                <div class="card-link-container">
+
+                  <div class="card-subheading-link">
+                    <a href="https://github.com/Victor-Timi/Ordio" target="_blank" >
+                      <div><i class="bx bxl-github"></i></div>
+                      <div class="link">repo</div>
+                    </a>
+                  </div>
+                  <div class="card-subheading-link">
+                    <a href="https://github.com/Victor-Timi/Ordio" target="_blank" >
+                      <div><i class="bx bx-link"></i></div>
+                      <div class="link">link</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <p class="card-description">
+                Ordio is an Imaginary Audio Streamer App that allows you to listen to your favorite music without any glitches. The design and development of this Landing Page were inspired by the number of posts uploaded on design websites like Dribbble. 
+              </p>
+            </div>
+
+          </div>
+          <!-- Fifth Card Here -->
+          <div class="card-container">
+            <div class="card-image">
+              <a href="https://fruitic.netlify.app/" target="_blank" class="portfolio-card portfolio-card-4">
+                <img src="./assets/images/Fruitic.png" alt="" />
+              </a>
+            </div>
+            <div class="card-content">
+              <h5 class="card-title">Fruitica</h5>
+              <div class="card-subheading">
+                <span class="card-subtitle">Web Design & Development</span>
+                <div class="card-link-container">
+                  <div class="card-subheading-link">
+                    <a href="https://github.com/Victor-Timi/Fruitica" target="_blank" >
+                      <div><i class="bx bxl-github"></i></div>
+                      <div class="link">repo</div>
+                    </a>
+                  </div>
+                  <div class="card-subheading-link">
+                    <a href="https://github.com/Victor-Timi/Fruitica" target="_blank" >
+                      <div><i class="bx bx-link"></i></div>
+                      <div class="link">link</div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <p class="card-description">
+                I couldn't bear a less appealing landing page of an online vegetable store, and due to my love for Vegetables, I decided to recreate mine. Frutica isn't just a Fruit Landing Page, it comprises every vegetable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- !CONTACT SECTION -->
+    <section class="get-in-touch section hidden" id="contact">
+      <div class="container">
+        <div class="section-title-container">
+          <h2 class="title section-title">Get in</h2>
+          <div class="section-subtitle-container">
+            <span class="subtitle-number has-sparkles">03</span>
+            <h5 class="title section-subtitle">Touch</h5>
+          </div>
+        </div>
+        <div class="section-description d-grid">
+          <div class="scroll-reveal-left">
+            <p class="description">
+              If <span class="text-bold">you</span> would like to work
+              <span class="text-bold">together</span> on a
+              <span class="text-bold">project</span>, please fill out the
+              <span class="text-bold">form</span> below. I can't wait to turn
+              your <span class="text-bold">ideas</span> into
+              <span class="text-bold">reality</span>!
+            </p>
+          </div>
+          <!-- <div class="scroll-reveal-right">
+            <div class="description-image has-sparkles">
+              <img src="./assets/images/get_in_touch.png" alt="" />
+            </div>
+          </div> -->
+        </div>
+        <div class="form-container">
+          <form action="" class="contact-form" action="https://formsubmit.co/victortimidev@.com" method="POST">
+            <div class="input-group">
+              <div class="input">
+                <input type="text" id="name" required />
+                <label for="name" class="input-label"
+                  >Name : <span class="required-field">*</span>
+                </label>
+              </div>
+              <div class="input">
+                <input type="email" id="email" required />
+                <label for="email" class="input-label"
+                  >Email : <span class="required-field">*</span>
+                </label>
+              </div>
+            </div>
+            <div class="input">
+              <input type="text" id="message" required />
+              <label for="message" class="input-label"
+                >Message : <span class="required-field">*</span>
+              </label>
+            </div>
+            <button type="submit" class="button form-button button-fill">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- !FOOTER -->
+    <footer class="footer hidden">
+      <div class="footer-container container">
+        <div class="social-media">
+          <ul class="list">
+            <li class="list-item">
+              <a href="#" class="list-link">
+                <i class="bx bxl-linkedin"></i>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">
+                <i class="bx bxl-instagram"></i>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">
+                <i class="bx bxl-github"></i>
+              </a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link">
+                <i class="bx bxl-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <span>&copy; 2022 Victor Timi. All rights reserved.</span>
+        <a href="#home" class="scroll-top">
+          <i class="bx bx-chevron-up"></i>Back to top
+        </a>
+      </div>
+    </footer>
+
+    <!-- !MY SCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="jquery.tagcanvas.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
